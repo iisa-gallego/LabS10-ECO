@@ -1,3 +1,6 @@
+const firebaseAppConfig = getFirebaseConfig();
+const firebaseApp = initializeApp(firebaseAppConfig);
+
 //constantes
 const idRegistro=document.getElementById('idRegistro');
 const nombre=document.getElementById('nombre');
