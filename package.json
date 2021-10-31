@@ -1,0 +1,30 @@
+{
+  "name": "labs10",
+  "version": "1.0.0",
+  "description": "lab semana 10 para Eco",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch --progress",
+    "visualize-main": "webpack --analyze"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iisa-gallego/LabS10-ECO.git"
+    
+  },
+  "author": "Isabella Gallego T",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iisa-gallego/LabS10-ECO/issues"
+  },
+  "homepage": "https://github.com/iisa-gallego/LabS10-ECO#readme",
+  "dependencies": {
+    "firebase": "^9.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
